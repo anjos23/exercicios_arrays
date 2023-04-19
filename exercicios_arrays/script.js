@@ -1,3 +1,5 @@
+//exercicios de array
+
 let Array
 console.log('a.', Array)
 
@@ -17,4 +19,29 @@ array[i+1]=19;
 console.log('e',array)
 
 const valor = array[i+6]
-console.log('f.', valor)
+console.log('f.', valor)//9
+
+
+//const frase = prompt('Digite uma frase')
+
+//console.log(frase.toUpperCase().replaceAll('A', 'I'), frase.lengt)
+
+//let nome = prompt('digite seu no nome')
+//let email = prompt('digite seu email')
+
+
+//console.log('o email aline' + email + ' foi cadastrado com sucesso. ' + 'seja bem-vindo(a)'+ nome + '')
+
+
+
+let listaDeTarefas = []
+let tarefa1 =prompt('digite a pirimeira tarefa')
+let tarefa2 = prompt('digite sua segunda tarefa')
+let tarefa3 = prompt('finalmente digite a terceira tarefa')
+
+listaDeTarefas.push(tarefa1 ,tarefa2 ,tarefa3 )
+console.log(listaDeTarefas)
+
+let indice = prompt("digite agora uma tarefa que vc ja fez")
+indice.splice(indice)
+console.log(listaDeTarefas)
